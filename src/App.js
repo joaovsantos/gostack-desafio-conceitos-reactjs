@@ -37,7 +37,7 @@ function App() {
           <li key={repository.id}>
             {repository.title}
 
-            <button onClick={() => handleAddRepository(repository.id)}>
+            <button onClick={() => handleRemoveRepository(repository.id)}>
               Remover
             </button>
           </li>
